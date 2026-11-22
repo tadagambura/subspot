@@ -56,6 +56,13 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | Monthly check-in: anything new? |
 | Cadence | Event-driven, monthly |
 
+## Animation and tone
+
+**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+
+- A cancelled subscription card slides away and the yearly saving ticks up
+
+
 ## AI
 
 **None.** Not needed. Plain code does everything this app does.
