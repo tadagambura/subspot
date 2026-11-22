@@ -1,6 +1,6 @@
 # SubSpot: Spec
 
-**Every subscription, renewal and free trial in one place** · #16 of 32 · Wave 2: Recurring keepers · Used: Monthly · Easy · Revenue potential: Medium–high · Money & Work · Source: ChatGPT + Perplexity
+**Every subscription, renewal and free trial in one place** · #16 of 31 · Wave 2: Recurring keepers · Used: Monthly · Easy · Revenue potential: Medium–high · Money & Work · Source: ChatGPT + Perplexity
 
 ## One-liner
 

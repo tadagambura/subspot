@@ -2,7 +2,7 @@
 
 **Every subscription, renewal and free trial in one place**
 
-> #16 of 32 · Wave 2: Recurring keepers · Used: Monthly · Easy · Revenue potential: Medium–high · Money & Work
+> #16 of 31 · Wave 2: Recurring keepers · Used: Monthly · Easy · Revenue potential: Medium–high · Money & Work
 
 ## What it is
 
@@ -83,5 +83,5 @@ Planning. The build spec is in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
-Part of a portfolio of 32 small consumer apps that share one codebase, one retention module
+Part of a portfolio of 31 small consumer apps that share one codebase, one retention module
 and one marketing and upkeep system ([growth-maintenance-engine](https://github.com/tadagambura/growth-maintenance-engine)).
