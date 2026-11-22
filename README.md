@@ -2,7 +2,7 @@
 
 **Every subscription, renewal and free trial in one place**
 
-> #10 of 33 in the build order · Easy · Revenue potential: Medium–high · Money & Work
+> #14 of 33 · Wave 2: Recurring keepers · Used: Monthly · Easy · Revenue potential: Medium–high · Money & Work
 
 ## What it is
 
@@ -55,6 +55,10 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Share | 'I was spending £X a year' card |
 | Next step | Monthly check-in: anything new? |
 | Cadence | Event-driven, monthly |
+
+## AI
+
+**None.** Not needed. Plain code does everything this app does.
 
 ## Watch-outs
 
