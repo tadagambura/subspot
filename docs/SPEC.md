@@ -1,60 +1,77 @@
 # SubSpot: Spec
 
-**Rank in portfolio:** #8 of 15 (easiest → hardest) · **Difficulty:** Easy
+**Every subscription, renewal and free trial in one place** · #10 of 33 in the build order · Easy · Revenue potential: Medium–high · Money & Work · Source: ChatGPT + Perplexity
 
 ## One-liner
 
-Track every subscription, renewal date and what you really spend each month.
+List your subscriptions (streaming, gym, apps, phone contract, insurance) and SubSpot shows the real monthly and yearly total, warns you before renewals and free-trial endings, and keeps a 'cancel before renewal' list.
 
 ## Problem / audience
 
-- **Who it's for:** Anyone with too many subscriptions and a feeling they're overpaying.
-- **The problem it solves:** Subscriptions renew quietly; people forget free trials and lose track of the monthly total.
+- **Who it's for:** Anyone with several subscriptions.
+- **The problem it solves:** Subscriptions renew quietly, free trials convert to paid, and nobody knows their real monthly total.
+- **Example:** A user adds everything, sees £87 a month, and cancels two services before they renew.
 
 ## MVP features (ship with only these)
 
-1. Add subscriptions (name, price, cycle, renewal date)
-2. Monthly and yearly total
-3. Renewal reminders (trial ending, renewal in 3 days)
-4. Common services pre-filled
+1. Quick add with common services pre-filled
+2. Monthly, yearly and per-use cost
+3. Renewal and trial-ending reminders
+4. 'Cancel before renewal' list
+5. Total recurring spend dashboard
 
 ## Not in MVP
 
-- Spending insights
-- Shared subscriptions (household)
-- Category breakdown
+- Spending insights and categories
+- Shared household subscriptions
+- Yearly recap card
 
 ## Monetisation
 
 | Model | Detail |
 |---|---|
 | Free | Up to 5 subscriptions, with ads |
-| Paid | £1.99/month: unlimited + reminders + insights |
-| Ads | Light; never on the totals screen |
+| Premium | £1.99–£2.99/month: unlimited, reminders, insights, sharing |
+| Ads | Light, never on the totals screen |
 
-Prices are starting points from the portfolio brief; test before committing.
+Prices are starting points; test before committing.
 
-## Platform & stack
+## Retention: The Progression Loop
 
-- **Platform:** Expo (needs notifications).
-- **Stack:** shared portfolio foundation (Expo, PostHog, RevenueCat, AdMob). See the portfolio roadmap.
-- **Data:** Device only. No bank connection.
+| Stage | Design |
+|---|---|
+| Cue | Renewal and trial reminders |
+| Tiny win | Keep or cancel in one tap |
+| Progress | Money saved by cancelling |
+| Share | 'I was spending £X a year' card |
+| Next step | Monthly check-in: anything new? |
+| Cadence | Event-driven, monthly |
 
-## Growth engine hooks
+Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
+never wiped, at most one notification a day by default.
 
-- **Shareable output:** "I spend £X a year on subscriptions" card.
-- **Content pillars:** Subscription creep; Free-trial traps; Cancel-or-keep decisions
+## Platform & data
 
-## Notes
+- **Platform:** Expo app (needs notifications).
+- **Data:** On the device only. No bank connection.
+- **Stack:** shared portfolio foundation (Expo, PostHog, RevenueCat, AdMob, shared Progression Loop module).
 
-Recurring-date maths (monthly, annual, custom cycles) must be correct.
+## Growth engine
+
+- **Content pillars:** Subscription creep; Free-trial traps; Keep or cancel
+- **Shareable output:** 'I was spending £X a year' card
+
+## Risks
+
+Use is episodic, so reminders are essential. Recurring-date maths must handle every billing cycle correctly.
 
 ## Launch checklist
 
-- [ ] Name checked on App Store / Play Store / trademark search
+- [ ] Name checked on the App Store, Play Store and a trademark search
 - [ ] MVP features done and tested
-- [ ] Privacy policy + terms
+- [ ] Progression Loop wired (cue, tiny win, progress, milestone, next step)
+- [ ] Privacy policy and terms
 - [ ] Landing page
-- [ ] Analytics wired
+- [ ] Analytics wired (D1/D7/D30 retention)
 - [ ] Payments / ads wired
 - [ ] Added to growth-engine as an app config
