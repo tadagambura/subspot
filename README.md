@@ -4,11 +4,13 @@ Track every subscription, renewal date and what you really spend each month
 
 ## Status
 
-Planning. See [`docs/SPEC.md`](docs/SPEC.md).
+Planning. #8 of 15 in the portfolio build order (easy). See [`docs/SPEC.md`](docs/SPEC.md).
 
 ## How it makes money
 
-_TBD, see SPEC._
+- **Free:** Up to 5 subscriptions, with ads
+- **Paid:** £1.99/month: unlimited + reminders + insights
+- **Ads:** Light; never on the totals screen
 
 ## Run locally
 
