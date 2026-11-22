@@ -58,11 +58,15 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | Monthly check-in: anything new? |
 | Cadence | Event-driven, monthly |
 
-## Animation and tone
+## Animation and tone: five signature animations
 
-**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+**Calm.** Gentle, kind humour and smooth motion: a stickman yawning after a shift, a fly escaping an empty pocket. No drama, nothing that adds stress.
 
-- A cancelled subscription card slides away and the yearly saving ticks up
+- Subscription cancelled: the card slides off and a door slams
+- Renewal reminder: a tiny alarm clock jumps up and down
+- Trial ending: the hourglass runs out with a 'dun dun'
+- Money saved: coins rain into a bucket
+- Everything reviewed: the stickman ticks a receipt that unrolls off the screen
 
 
 ## AI
